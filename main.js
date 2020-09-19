@@ -5,4 +5,4 @@ let dayName= daynames[d.getDay()];
 let monthName= months[d.getMonth()];
 let year= d.getFullYear();
 let fulldate= dayName+", "+monthName+ " " +d.getDate()+", "+ year;
-document.getElementById('dates').textContent= fulldate;
+document.getElementById('dates').textContent= new Date(document.lastModified);
