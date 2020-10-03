@@ -1,0 +1,147 @@
+* { -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box; box-sizing:border-box;}
+/*body rules here */
+
+
+/*header rules here*/
+header{
+    background-color:#33C1B1;
+    color:white;
+    padding:1rem 2%;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;}
+
+/*body*/
+h1{ font-size: 40px;text-align: center;}
+h2 {font-size: 30px;}
+h3 {font-size: 20px;}
+body p, ol{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: justify ;}
+header h2{ margin:0;}
+/*image rules*/
+.large { display:none;}
+.small { max-width: 100%;
+margin-left: 50px;}
+/*Color rules*/
+#color1{
+    background-color:#33C1B1;
+}
+#color2{
+        background-color:#E7C15F;}
+#color3{
+        background-color:#9E87C0;
+    }
+/*Typography rules*/
+
+#S1{font-family: 'Montserrat', sans-serif;
+font-size:40px; background-color:#33C1B1; color:black;}
+#S2{font-family: 'Montserrat', sans-serif;
+    font-size:30px; background-color:#E7C15F; color:black;}
+#S3{font-family: 'Montserrat', sans-serif;
+        font-size:20px; background-color:#9E87C0;}
+#S4{font-family: 'Montserrat', sans-serif;
+            font-size:30px; color:#33C1B1	;}
+#S5{font-family: 'Montserrat', sans-serif;
+                font-size:20px; color:#33C1B1	;}
+
+#S6{font-family: 'Roboto', sans-serif;
+                    font-size:16px; color:#33C1B1;}
+#S7 {font-family: 'Roboto', sans-serif;
+                        font-size:16px; columns: #000000;}
+    
+table, th, td {
+    border: 1px solid black;
+  }
+
+table td{
+    height:40px;
+}
+table, thead, tbody, th, td, tr { 
+    display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+}
+
+td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+}
+
+/*
+Label the data
+*/
+table, thead, tbody, th, td, tr { 
+    display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+}
+
+td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+}
+
+/*
+Label the data
+*/
+td:nth-of-type(1):before { content: "Place"; }
+td:nth-of-type(2):before { content: "Font"; }
+td:nth-of-type(3):before { content: "Size"; }
+td:nth-of-type(4):before { content: "Color"; }
+td:nth-of-type(5):before { content: "Example"; font-size: 16px; color:black; background-color: none; font-style:italic; }
+
+.clearfix:after{
+ content: "";
+ display: table;
+ clear: both;
+}
+footer{
+    text-align: center;
+    height:50px;
+    background-color: #9E87C0;
+}
