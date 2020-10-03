@@ -1,12 +1,13 @@
 @media only screen and (min-width: 35rem){
 h1{text-align:center;}
+#link { font-size: 20px;}
 .small{
     display:block; max-width: 100%;}
  .colors{
         width:600px;
         }
 .large{ display:none;}
-
+.domain {max-width: 100%;}
 
 }
 /*end of media query*/
