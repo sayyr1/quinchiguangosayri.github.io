@@ -2,6 +2,9 @@
 h1{text-align:center;}
 .small{
     display:block; max-width: 100%;}
+ .colors{
+        width:600px;
+        }
 .large{ display:none;}
 
 
