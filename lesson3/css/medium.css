@@ -8,6 +8,9 @@ h1{text-align:center;}
         }
 .large{ display:none;}
 .domain {max-width: 100%;}
-
+/* table rules here*/
+table{
+    width: 100%;
+}
 }
 /*end of media query*/
