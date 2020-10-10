@@ -1,7 +1,9 @@
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64em) {
- header, nav, main, footer{display: block; max-width: 1024px;
+  
+  
+header, nav, main, footer{display: block; max-width: 1024px;
         margin: 0 auto;} 
         nav button {display: none;}
         nav ul.hide a {display: block}
@@ -13,4 +15,5 @@
         nav ul li a { border: none;
                       border-right: 1px solid rgba(0,0,0,0.3);
                       padding: 10rem;}
-                    } /*end large */
+                      .headings h1 { font-family: 'Monserrat', sans-serif; font-size: 50px;}
+}

@@ -5,15 +5,22 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 /* Header Rules Here*/
 header { 
+    background-color: #33C1B1 ;
     display: flex;
     align-items: center;
-    justify-items: center;}
-
+    justify-items: center;
+    margin-bottom: 1rem;
+    }
+#headerWrapper { background-color: #9E87C0;}
 .headings { 
  display: flex;
  flex-direction: column;
+ margin-top: -2.5rem;
+ margin-left:-1rem;
 }
-.motto { 
+.headings h1 { font-family: 'Monserrat', sans-serif; font-size: 20px;}
+.headings div { font-size: 'Roboto', arial; font-size: 15px; margin-top: -20px; margin-left: 20px;}
+.motto {  
     margin-top:-1rem;
 }
 
@@ -28,7 +35,7 @@ nav button {
 }
 
 /*Navigation Rules Here*/
-nav { background-color: #aa0000;
+nav { background-color: #E7C15F;
       font-family: Verdana, sans-serif;}
 nav ul {list-style-type: none;
         padding: 0;
@@ -37,7 +44,7 @@ nav ul li a{
     display:block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: rgba(255,255,255,0.8);
+    color: #000;
     border-top: 1px solid rgba(0,0,0,0.3);
 }
 nav ul li.active a { background-color:rgba(0,0,0,0.3); color: #fff; }
@@ -51,10 +58,14 @@ main div{ height: 100%;
           margin-top:2rem;
           text-align:left;
           }
+main div, h1 {margin-left: 1rem;}
 /* Footer rules here*/
-footer {height:40px;
-         text-align: center;}          
-
+footer { max-width: 100%; margin-top: 1rem;}
+footer p {padding:1rem;
+          margin: auto 0;
+          text-align: center;}
+         
+#footerWrapper { background-color: #9E87C0;}
 /* Clearfix*/
 .clearfix:after {
     content: "";
