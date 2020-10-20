@@ -23,8 +23,22 @@ header {
 .motto {  
     margin-top:-1rem;
 }
-
-
+.float{
+    position:absolute;
+    border:1px solid #000;
+    height:220px;
+    width:230px;
+    color:white;
+    background-color:red;
+    top:32rem;
+    left:50px;
+    line-height: 0.8em;
+    padding:10px;
+    opacity: .8;
+    
+}
+.h2 {border-bottom: 2px solid #fff;
+    }
 /*Button Rules*/
 nav button { 
     margin: .2rem 2%;
@@ -50,7 +64,9 @@ nav ul li a{
 nav ul li.active a { background-color:rgba(0,0,0,0.3); color: #fff; }
 nav ul li a:hover{ background-color: rgba(0,0,0,0.4);}
 nav ul.hide { display:none;}
- 
+ /*Images rules here*/
+ .cover{ width: 100%;
+         height: 100%;}
 /*Main Rules Here*/
 main div{ height: 100%;
           border: 1px solid black;

@@ -12,19 +12,21 @@
 <link href="css/small.css" rel="stylesheet">
 <link href="css/normalize.css" rel="stylesheet">
 <script src="js/main.js" defer></script>
+
 <!--Fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--HEADER HERE-->
 <div id="headerWrapper">
-<header class="clearfix">
+    <header class="header">
       <picture>
         <img src="images/logo.png" alt="logo">
        </picture>
-        <section class="headings"><h1>The Weather Site</h1>
-       <div class="motto">Always Reliable</div></section>
-</header>
+       <section class="headings"><h1>The Weather Site</h1>
+      
+        <div class="motto">Always Reliable</div></section>
+    </header>
 </div>
   <!--Navigation Here-->
 <div id="navWrapper">
@@ -40,8 +42,20 @@
 </ul>
 </nav>
 </div>
+<div>
+  <img class="cover" src="images/Prestonidaho.jpeg" alt="cover">
+  </div>
+<section class="float">
+ <div class="h2"> <h2>Weather Summary</h2> </div>
+ <p>Currently: <span>Sunny</span></p>
+ <p>High: <span>76°F</span></p>
+ <p>Wind Chill: <span>°F</span></p>
+ <p>Humidity: <span>69%</span></p>
+ <p>Wind Speed: <span>5 mph</span></p>
+</section>
 <!--Content Here-->
-<main class="clearfix">    
+<main class="clearfix">  
+
     <h1>Preston Idaho</h1>
     <div class="contentbox">Hero w/ Weather Summary</div>
     <div class="contentbox">5 days Forecast</div>

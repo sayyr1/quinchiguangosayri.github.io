@@ -2,8 +2,10 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64em) {
   
-  
-header, nav, main, footer{display: block; max-width: 1024px;
+/*header rules here*/
+
+picture{ grid-column: 2/3;}
+header, nav, main, footer, .cover{display: block; max-width: 1024px;
         margin: 0 auto;} 
         nav button {display: none;}
         nav ul.hide a {display: block}
@@ -15,4 +17,5 @@ header, nav, main, footer{display: block; max-width: 1024px;
         nav ul li a { border: none;
                       border-right: 1px solid rgba(0,0,0,0.3);
                       padding: 10rem;}
+        .float{ margin-left:8em;}
 }
