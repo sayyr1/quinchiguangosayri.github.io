@@ -24,14 +24,11 @@ div.hideme{display:none;}
  margin-top: -2.5rem;
  margin-left:-1rem;
 }
-.headings h1 { font-family: 'Monserrat', sans-serif;
-     font-size: 40px;}
-.headings div { font-family: 'Roboto', sans-serif; font-size: 25px; margin-top: -35px; margin-left: 20px;}
+.headings h1 { font-family: 'Monserrat', sans-serif; font-size: 20px;}
+.headings div { font-family: 'Roboto', sans-serif; font-size: 15px; margin-top: -20px; margin-left: 20px;}
 .motto {  
     margin-top:-1rem;
 }
-.coverfloat{position:relative;}
- 
 .float{
     position:absolute;
     border:1px solid #000;
@@ -39,14 +36,12 @@ div.hideme{display:none;}
     width:230px;
     color:white;
     background-color:red;
-    top:1rem;
-    left:1rem;
+    top:42rem;
+    left:50px;
     line-height: 0.8em;
     padding:10px;
     opacity: .8;
-    }
-.cover{
-    max-width:100%;
+    
 }
 .h2 {border-bottom: 2px solid #fff;
     }
@@ -76,7 +71,8 @@ nav ul li.active a { background-color:rgba(0,0,0,0.3); color: #fff; }
 nav ul li a:hover{ background-color: rgba(0,0,0,0.4);}
 nav ul.hide { display:none;}
  /*Images rules here*/
- 
+ .cover{ width: 100%;
+         height: 100%;}
 /*Main Rules Here*/
 main div{ height: 100%;
           border: 1px solid black;
@@ -85,37 +81,16 @@ main div{ height: 100%;
           text-align:left;
           }
 main div, h1 {margin-left: 1rem;}
-.forecast {display: none;}
-.forecast-heading {display: none;}
-.preston-header{text-align:center;}
-
-main div{border:none;}
-.article, .information{background-color:#e8faf8;
-         margin:auto 0; }
-.article {margin-bottom:30px;}
-         .article{margin-top:7rem;}
-#experience{max-width: 100%;
-            margin: 0 auto;
-            box-shadow: 0 5px 20px 5px rgba(0,0,0,0.5);
-            }
-#map{display:none;}
-#ubication {width:20px;
-            height:20px;}
 /* Footer rules here*/
 footer { max-width: 100%; margin-top: 1rem;}
 footer p {padding:1rem;
           margin: auto 0;
           text-align: center;}
-          
-.information{height:15rem;}
-#where{margin-top:-3rem;
-       margin-left: ;
-       }
-
+         
 #footerWrapper { background-color: #9E87C0;}
 /* Clearfix*/
 .clearfix:after {
     content: "";
     display: table;
-    clear: both;}
+    clear: both;
 }

@@ -9,7 +9,5 @@ const today = new Date()
   console.log(dayNumber);
   
   const element = document.getElementById("message");
-  if (dayNumber==6){element.classList.add('showme');}
+  if (dayNumber==2){element.classList.add('showme');}
   else {element.classList.add('hideme');}
-  let lastMod= new Date(document.lastModified);
-document.getElementById('dates').textContent=lastMod;
